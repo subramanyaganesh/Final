@@ -1,0 +1,35 @@
+
+
+<div class="container">
+
+  <h1>Add Config</h1>
+<!--  <pre>{{data |json}}</pre>-->
+  <form  #configForminsert="ngForm" (ngSubmit)="onSubmit()">
+<!--    # is called template variable -->
+
+    <div class="form-group">
+      <label for="tag">Tag</label>
+      <input type="text" class="form-control" id="tag" required
+             [(ngModel)]="configFormData.tag" name="instance" >
+    </div>
+    <div class="form-group">
+      <label for="instance">Instance</label>
+      <input type="text" class="form-control" id="instance" required
+             [(ngModel)]="configFormData.instance"name="instance" >
+    </div>
+    <div class="form-group">
+      <label for="user">User name</label>
+      <input type="text" class="form-control" id="User" required
+             [(ngModel)]="configFormData.username" name="instance">
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="text" class="form-control" id="password" required
+             [(ngModel)]="configFormData.password"name="instance">
+    </div>
+
+    <button type="submit" class="btn btn-success">Submit</button>
+
+  </form>
+
+</div>

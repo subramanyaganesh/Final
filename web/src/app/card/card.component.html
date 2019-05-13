@@ -1,0 +1,20 @@
+<div class="card">
+
+  <h1>{{data.tag}}</h1>
+  <div> {{data.instance}}</div>
+  <div> {{data.username}}</div>
+  <div> {{data.id}}</div>
+  <!--  <pre>{{data|json}}</pre>-->
+  <hr>
+  <!--horizontal ruler-->
+
+  <Button (click)="showForm=!showForm" class="button primary">Edit</Button>
+
+  <Button (click)="deleteConfig(data.id)" class="button danger">Delete</Button>
+
+  <app-configform *ngIf="showForm" [id]="data.id" (reload)="handleUpdate()"></app-configform>
+
+</div>
+
+
+

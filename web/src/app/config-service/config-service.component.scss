@@ -1,0 +1,16 @@
+.add-config{
+
+  padding:1rem;
+  background: tomato;
+  width:10rem;
+  margin:10px;
+  color:white;
+}
+
+.config{
+  display:grid;
+  align-items: center;
+
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+
+}

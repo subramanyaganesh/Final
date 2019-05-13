@@ -1,0 +1,10 @@
+com/discovery/project/Model/MidResult.class
+com/discovery/project/Model/MongoModel.class
+com/discovery/project/Repository/MongoRepo.class
+com/discovery/project/Service/HttpsService.class
+com/discovery/project/Model/Health.class
+com/discovery/project/Service/MongoService.class
+com/discovery/project/Model/MidServer.class
+com/discovery/project/ProjectApplication.class
+com/discovery/project/Controller/MyController.class
+com/discovery/project/Model/HttpsModel.class

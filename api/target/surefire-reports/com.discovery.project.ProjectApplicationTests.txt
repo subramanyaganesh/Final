@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.discovery.project.ProjectApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.756 s - in com.discovery.project.ProjectApplicationTests

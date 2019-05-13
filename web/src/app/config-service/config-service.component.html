@@ -1,0 +1,22 @@
+<div>
+  <!--<pre>{{config | json}}</pre>-->
+  <button class="add-config" (click)="showForm=!showForm">
+    Add new config
+  </button>
+  <app-configform *ngIf="showForm" (reload)="handleRefresh()"></app-configform>
+
+
+
+<!--  </div>-->
+  <div class="config">
+    <div *ngFor="let cfg of config">
+
+      <app-card [data]="cfg" (reload)="handleRefresh()"></app-card>
+
+
+    </div>
+
+  </div>
+
+
+</div>
